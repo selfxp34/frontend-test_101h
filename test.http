@@ -1,0 +1,12 @@
+GET http://localhost/api/comments/
+
+###
+
+POST http://localhost/api/comments
+Content-Type: application/json
+
+{
+  "name": "Jo",
+  "text": "Hello",
+  "date": "2022-12-12"
+}
